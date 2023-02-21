@@ -1,3 +1,4 @@
+@etsy
 Feature: Etsy search functionality
 
   Scenario: Etsy title verification
