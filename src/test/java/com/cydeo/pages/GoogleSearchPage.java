@@ -15,5 +15,4 @@ public class GoogleSearchPage {
     //#2- Use @FindBy instead of findElement()
     @FindBy(name = "q")
     public WebElement searchBox;
-
 }

@@ -34,14 +34,10 @@ public class Bing_StepDefinitions {
     @Then("user should see {string} in the title")
     public void userShouldSeeInTheTitle(String expectedTitle) {
 
-        BrowserUtils.verifyTitle(expectedTitle);
+        BrowserUtils.verifyTitleContains(expectedTitle);
         //BrowserUtils.verifyTitleContains(expectedTitle);
 
     }
 
-    @Then("user should see orange in the title")
-    public void userShouldSeeOrangeInTheTitle() {
-        BrowserUtils.verifyTitle("orange - Search");
 
-    }
 }

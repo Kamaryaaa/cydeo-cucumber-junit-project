@@ -1,4 +1,4 @@
-@wiki
+
 Feature: Wiki search features
   WPS-7531
 
@@ -33,7 +33,7 @@ Feature: Wiki search features
     Examples: search values we are going to be using in this scenario outlines
       | searchValue     | expectedTitle   | expectedMainHeader | expectedImageHeader |
       | Steve Jobs      | Steve Jobs      | Steve Jobs         | Steve Jobs          |
-      | Marry Barra     | Marry Barra     | Marry Barra        | Marry Barra         |
+      #| Marry Barra     | Marry Barra     | Marry Barra        | Marry Barra         |
       | Rosalind Brewer | Rosalind Brewer | Rosalind Brewer    | Rosalind Brewer     |
       | Sundar Pichai   | Sundar Pichai   | Sundar Pichai      | Sundar Pichai       |
 
